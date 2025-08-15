@@ -1,91 +1,105 @@
-# YourBuddy 🤖
+# Your Buddy 🎯
 
-A comprehensive mental health and wellness companion website built with React and TypeScript.
+## Basic Details
+### Team Name: The Mood Swingers
 
-## 🌟 Features
+### Team Members
+- Team Lead: Devapriya KS - Toc H Institute of Science and Technology
+- Member 2: Richard Roy - Toc H Institute of Science and Technology
 
-- **ChaiGPT Tea Shop** ☕ - Relaxing ambience with rain, thunder, and nostalgic music
-- **Mood Tracker** 📊 - Track and visualize your daily emotions
-- **Emergency Support** 🆘 - Quick access to mental health resources
-- **Fun Games** 🎮 - Interactive games and activities
-- **Chatbot Assistant** 💬 - AI-powered conversation companion
-- **Recommendation Engine** 📚 - Personalized content suggestions
+### Project Description
+A fun and slightly sadistic React-based app that tracks moods, gives personalized recommendations, and adds a daily dose of hilariously brutal roasting. Bonus: it can even read Chrome history (locally) and roast your browsing habits.
 
-## 🚀 Live Demo
+### The Problem (that doesn't exist)
+People are tired of boring self-care apps. Why just track moods when you can get roasted while doing it?
 
-Visit the live website: [https://devapriya2000.github.io/yourbuddy/project/](https://devapriya2000.github.io/yourbuddy/project/)
+### The Solution (that nobody asked for)
+We track moods and browsing history, provide movie/song/activity suggestions, and sprinkle in funny, savage commentary. Self-reflection is now sarcastic, interactive, and entertaining.
 
-## 🛠️ Technologies Used
+## Technical Details
+### Technologies/Components Used
+For Software:
+- Languages: TypeScript, JavaScript, HTML, CSS
+- Frameworks: React, Express (backend)
+- Libraries: TailwindCSS, Lucide Icons, Axios
+- Tools: Node.js, npm, VS Code, Postman
 
-- **Frontend**: React 18, TypeScript
-- **Styling**: Tailwind CSS
-- **Build Tool**: Vite
-- **Icons**: Lucide React
-- **Audio**: Native HTML5 Audio API
+For Hardware:
+- Not applicable (fully software project)
 
-## 🎵 Recent Updates
+### Implementation
+For Software:
+# Installation
+git clone https://github.com/your-repo/moodtracker.git
+cd moodtracker
+npm install
 
-- ✅ Fixed ChaiGPT audio playback issues
-- ✅ Added proper TypeScript support for audio files
-- ✅ Implemented ES module imports for local assets
+# Run
+# Start backend server
+cd backend
+npm install
+npm run dev
 
-## 🏃‍♂️ Running Locally
+# Start frontend
+cd ../frontend
+npm start
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/devapriya2000/yourbuddy.git
-   cd yourbuddy/project
-   ```
+### Pages/Components
+1. MoodTracker Page
+   - Track moods using emoji buttons
+   - Set intensity (1–10)
+   - Add optional notes
+   - Shows recent mood history
+   - Displays personalized recommendations (movies, songs, activities)
+   - Integrates humorous roast comments based on mood
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+2. Auntie Roast / Chrome History Page
+   - Reads local Chrome history (using Chrome Extensions API)
+   - Generates humorous/savage quotes based on visited websites
+   - Includes CSS hover effects and styled cards for better UX
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+3. Backend API Page
+   - Node/Express backend storing API key securely in `.env`
+   - Handles requests from frontend for recommendations and roast generation
+   - Returns data safely without exposing secrets to the client
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
+4. UI/UX Enhancements
+   - TailwindCSS styling across all pages
+   - Animated emojis for mood selection
+   - Gradient-filled intensity bars
+   - Glassmorphism cards for recommendations
+   - Persistent mood history using localStorage
 
-## 📁 Project Structure
+### Fun Section – Witty Captions / Pages
+1. Password Apologiser – "Forgot your password? Time to say sorry… yes, even to your computer."
+2. AI Mood Detective – "Sherlock Holmes meets AI – and it knows if you’re grumpy before you do."
+3. Random Compliment Generator – "Because everyone deserves a random ego boost. You’re welcome."
+4. Magic Ball Decision Maker – "Ask the universe… and get an answer you didn’t expect (or want)."
+5. Virtual Coconut Offering – "Offer a coconut online, receive instant karma. No queue at the temple required."
+6. Auntie Comment Generator – "Random auntie roasts – because unsolicited opinions are a cultural treasure."
+7. Graveyard for Ideas – "A final resting place for dreams that didn’t survive the brainstorming session."
+8. ChaiGPT – "Sip chai, hear rain, and pretend you’re writing your life-changing novel."
+9. Fun Death Predictor – "Predicts your demise… with reasons so absurd, you might laugh yourself to death."
+10. Movie Roasting Bot – "Spoils the ending and roasts the movie – so you don’t waste two hours."
 
-```
-project/
-├── src/
-│   ├── components/
-│   │   ├── ChaiGPT.tsx
-│   │   ├── Dashboard.tsx
-│   │   ├── MoodTracker.tsx
-│   │   └── ...
-│   ├── assets/
-│   │   ├── rain.mp3
-│   │   ├── thunder.mp3
-│   │   └── ...
-│   └── main.tsx
-├── package.json
-└── vite.config.js
-```
+### Project Documentation
+# Screenshots (Add at least 3)
+<img width="1920" height="931" alt="Screenshot 2025-08-15 074641" src="https://github.com/user-attachments/assets/40301082-c39d-4dad-8e99-b13bfb5c942c" />
+<img width="1919" height="907" alt="Screenshot 2025-08-15 074851" src="https://github.com/user-attachments/assets/9852ec03-53ed-4ba0-bdcd-fc03cb4c46e2" />
+<img width="1920" height="1020" alt="Screenshot 2025-08-15 075505" src="https://github.com/user-attachments/assets/0b07aefc-449e-493c-918c-4fda7fe6db5a" />
 
-## 🤝 Contributing
+### Project Demo
+# Video
+Demo Video Link: https://drive.google.com/drive/folders/1ZYO7U9PICy1T45lIrzq4qU36iHyJDeSO?usp=drive_link
+Demonstrates Fun projects
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ for mental health awareness
-- Audio assets for ambient sounds
-- Community feedback and support
+## Team Contributions
+- Devapriya KS: Frontend React UI, mood tracker page, CSS animations, auntie roast integration, persistent history
+- Richard Roy: Backend API, API key integration, recommendation logic 
 
 ---
+Made with ❤️ at TinkerHub Useless Projects 
 
-**Made with 💙 by [devapriya2000](https://github.com/devapriya2000)**
+Badges:
+TinkerHub: https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F
+Useless Projects: https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects
