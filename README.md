@@ -8,7 +8,7 @@
 - Member 2: Richard Roy - Toc H Institute of Science and Technology
 
 ### Project Description
-A fun and slightly sadistic React-based app that tracks moods, gives personalized recommendations, and adds a daily dose of hilariously brutal roasting. Bonus: it can even read Chrome history (locally) and roast your browsing habits.
+A fun and slightly sadistic Website that tracks moods, gives personalized recommendations,adds a daily dose of hilariously brutal roasting and many more.
 
 ### The Problem (that doesn't exist)
 People are tired of boring self-care apps. Why just track moods when you can get roasted while doing it?
