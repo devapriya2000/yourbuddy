@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "History Summarizer",
+  "version": "1.0",
+  "description": "Summarize your Chrome history and generate a humorous quote.",
+  "permissions": ["history", "storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "public/icon16.png",
+      "48": "public/icon48.png",
+      "128": "public/icon128.png"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.idea-ghost {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  opacity: 1;
+}
+
+.idea-ghost.toGrave {
+  animation: flyToGrave 1.5s ease forwards;
+}
+
+.idea-ghost.toHistory {
+  animation: flyToHistory 1.5s ease forwards;
+}
+
+@keyframes flyToGrave {
+  0% { top: 20%; opacity: 1; }
+  100% { top: 60%; opacity: 1; }
+}
+
+@keyframes flyToHistory {
+  0% { top: 60%; left: 50%; opacity: 1; }
+  100% { top: 20%; left: 85%; opacity: 0; }
+}
+
+.grave {
+  font-size: 3rem;
+}
