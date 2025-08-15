@@ -1,7 +1,7 @@
 # Your Buddy 🎯
 
 ## Basic Details
-### Team Name: The Mood Swingers
+### Team Name: Your Buddy
 
 ### Team Members
 - Team Lead: Devapriya KS - Toc H Institute of Science and Technology
