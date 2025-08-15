@@ -20,9 +20,9 @@ We track moods and browsing history, provide movie/song/activity suggestions, an
 ### Technologies/Components Used
 For Software:
 - Languages: TypeScript, JavaScript, HTML, CSS
-- Frameworks: React, Express (backend)
+- Frameworks: React, Typescript (Backend)
 - Libraries: TailwindCSS, Lucide Icons, Axios
-- Tools: Node.js, npm, VS Code, Postman
+- Tools: Node.js, npm, VS Code
 
 For Hardware:
 - Not applicable (fully software project)
@@ -30,19 +30,12 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-git clone https://github.com/your-repo/moodtracker.git
 cd moodtracker
 npm install
 
 # Run
-# Start backend server
-cd backend
-npm install
+# Start Website
 npm run dev
-
-# Start frontend
-cd ../frontend
-npm start
 
 ### Pages/Components
 1. MoodTracker Page
@@ -53,8 +46,7 @@ npm start
    - Displays personalized recommendations (movies, songs, activities)
    - Integrates humorous roast comments based on mood
 
-2. Auntie Roast / Chrome History Page
-   - Reads local Chrome history (using Chrome Extensions API)
+2. Auntie Roast
    - Generates humorous/savage quotes based on visited websites
    - Includes CSS hover effects and styled cards for better UX
 
