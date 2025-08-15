@@ -1,8 +1,7 @@
-name: Deploy to GitHub Pages
+name: Simple Deploy to GitHub Pages
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:  # Manual trigger only
 
 permissions:
   contents: read
@@ -10,45 +9,39 @@ permissions:
   id-token: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-
+      
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        cache: 'npm'
-        cache-dependency-path: project/package-lock.json
-
+        
     - name: Install dependencies
+      working-directory: ./project
       run: |
-        cd project
-        npm ci --legacy-peer-deps
-
+        npm install --legacy-peer-deps
+        
     - name: Build
+      working-directory: ./project
       run: |
-        cd project
-        echo "Current directory: $(pwd)"
-        echo "Node version: $(node --version)"
-        echo "NPM version: $(npm --version)"
-        ls -la
         npm run build
-
+        
     - name: Setup Pages
       uses: actions/configure-pages@v4
-
+        
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
         path: ./project/dist
-
+        
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
