@@ -30,7 +30,7 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-cd moodtracker
+cd yourbuddy
 npm install
 
 # Run
