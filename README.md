@@ -1,3 +1,5 @@
+<img width="3188" height="1202" alt="image" src="https://github.com/user-attachments/assets/33dbacfd-6597-4548-8ff0-ce51c2deed32" />
+
 # Your Buddy 🎯
 
 ## Basic Details
