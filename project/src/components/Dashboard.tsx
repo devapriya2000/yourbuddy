@@ -1,7 +1,7 @@
 import React from 'react';
-import { AlertTriangle, MessageCircle, Brain, Heart, Lightbulb, Gamepad2, Sparkles, Star, Shield, Zap } from 'lucide-react';
+import { AlertTriangle, MessageCircle, Brain, Heart, Lightbulb, Gamepad2, Sparkles, Star, Shield, Zap, Coffee } from 'lucide-react';
 
-type Section = 'dashboard' | 'emergency' | 'chatbot' | 'quiz' | 'mood' | 'recommendations' | 'games';
+type Section = 'dashboard' | 'emergency' | 'chatbot' | 'quiz' | 'mood' | 'recommendations' | 'games' | 'chaigpt';
 
 interface DashboardProps {
   onNavigate: (section: Section) => void;
@@ -62,6 +62,15 @@ const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
       gradient: 'from-orange-500 via-amber-500 to-yellow-500',
       shadowColor: 'shadow-orange-500/25',
       glowColor: 'group-hover:shadow-orange-500/50',
+    },
+    {
+      id: 'chaigpt' as Section,
+      title: 'ChaiGPT Tea Shop',
+      description: 'Relaxing tea shop with ambient sounds',
+      icon: Coffee,
+      gradient: 'from-amber-600 via-orange-500 to-red-500',
+      shadowColor: 'shadow-amber-500/25',
+      glowColor: 'group-hover:shadow-amber-500/50',
     },
   ];
 
