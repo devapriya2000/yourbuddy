@@ -83,7 +83,8 @@ npm run dev
 ### Project Demo
 # Video
 Demo Video Link: https://drive.google.com/drive/folders/1ZYO7U9PICy1T45lIrzq4qU36iHyJDeSO?usp=drive_link
-Demonstrates Fun projects
+Demonstrates Fun projects 
+Website Link : https://devapriya2000.github.io/yourbuddy/
 
 ## Team Contributions
 - Devapriya KS: Frontend React UI, mood tracker page, CSS animations, auntie roast integration, persistent history
