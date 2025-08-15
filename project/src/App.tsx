@@ -6,8 +6,9 @@ import QuizSection from './components/QuizSection';
 import MoodTracker from './components/MoodTracker';
 import RecommendationSection from './components/RecommendationSection';
 import FunGamesSection from './components/FunGamesSection';
+import ChaiGPT from './components/ChaiGPT';
 
-type Section = 'dashboard' | 'emergency' | 'chatbot' | 'quiz' | 'mood' | 'recommendations' | 'games';
+type Section = 'dashboard' | 'emergency' | 'chatbot' | 'quiz' | 'mood' | 'recommendations' | 'games' | 'chaigpt';
 
 function App() {
   const [currentSection, setCurrentSection] = useState<Section>('dashboard');
@@ -26,6 +27,8 @@ function App() {
         return <RecommendationSection onBack={() => setCurrentSection('dashboard')} />;
       case 'games':
         return <FunGamesSection onBack={() => setCurrentSection('dashboard')} />;
+      case 'chaigpt':
+        return <ChaiGPT onBack={() => setCurrentSection('dashboard')} />;
       default:
         return <Dashboard onNavigate={setCurrentSection} />;
     }
