@@ -1,7 +1,7 @@
 # Your Buddy 🎯
 
 ## Basic Details
-### Team Name: Your Buddy
+### Team Name: ByteX
 
 ### Team Members
 - Team Lead: Devapriya KS - Toc H Institute of Science and Technology
