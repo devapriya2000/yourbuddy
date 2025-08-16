@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'AIzaSyCfQctOOESsjr0r8iWruvWFY3R1oxfBLZ8'; // Replace with your Gemini API key
+const API_KEY = 'AIzaSyD4-QT3bPY30SexzmGf9ovIcFb-UISmw6MI'; // Replace with your Gemini API key
 const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 export const getGeminiResponse = async (userMessage: string): Promise<string> => {
