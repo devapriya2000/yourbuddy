@@ -9,6 +9,9 @@
 - Team Lead: Devapriya KS - Toc H Institute of Science and Technology
 - Member 2: Richard Roy - Toc H Institute of Science and Technology
 
+### The Link to our Live Website
+https://devapriya2000.github.io/yourbuddy/
+
 ### Project Description
 A fun and slightly sadistic Website that tracks moods, gives personalized recommendations,adds a daily dose of hilariously brutal roasting and many more.
 
